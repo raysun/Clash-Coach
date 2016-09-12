@@ -1,0 +1,60 @@
+#opponentCards {
+ margin: 20px;
+  
+}
+
+#container {
+  margin: 20px;
+  width: 40%;
+  height: 25px;
+  position: relative;
+}
+
+button {
+	height: 50px;
+	width: 100%;
+	
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	background-color: #000066; /* Green */
+    border: none;
+    color: white;
+    /* padding: 15px 32px; */
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+button.card {
+	background-repeat: no-repeat;
+	background-size: 45px 45px;
+	text-align:right;
+
+	 background-position: left; 
+	/* padding-<left|right>: <width of image>px; */
+}
+
+div.progressbar-text {
+	font-size: 25pt;
+	font-family: Helvetica;
+}
+
+.search {
+
+                padding:8px 15px;
+                background:rgba(50, 50, 50, 0.2);
+                border:0px solid #dbdbdb;
+}
+.searchbutton {
+	height:35px;
+	width:50px;
+                position:relative;
+                padding:6px 15px;
+                
+                border:2px solid #207cca;
+                background-color: #000066; 
+                color:#fafafa;
+}
+.searchbutton:hover  {
+                background-color:#fafafa;
+                color:#207cca;
+}

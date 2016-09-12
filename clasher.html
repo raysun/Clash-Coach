@@ -1,0 +1,38 @@
+<html>
+<!-- TODO
+    * Is there an easier way for the Helper to choose?
+    -->
+
+<head>
+    <title>Clasher</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="bower_components/progressbar.js/dist/progressbar.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/annyang/2.4.0/annyang.min.js"></script>
+    <script src="jquery.csv.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <!-- <div><img id="progressbar" src="img/fullElixirBar.png" /></div> -->
+    <div id="container"></div><span id="finalMinuteLabel"></span>
+    <br/>
+    <div id="opponentCards" style="height:100px; column-count:9"></div>
+    <div>
+        <button onclick="start()" autofocus style="width:200px">Start Game</button>
+        <input class="search" id="filter" type="text">
+        <button class="searchbutton"><i class="fa fa-search" aria-hidden="true"></i></button>
+        <!-- <button id="finalMinuteButton" onclick="startFinalMinute()" style="width:200px">Final Minute</button> -->
+    </div>
+    <br/>
+    <div id="cards" style="column-count:9"></div>
+    <br/>
+    <div id="advice"></div>
+    <script src="sound.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/LoadGo/2.1/loadgo.min.js"></script>
+    <script src="clasher.js"></script>
+
+</body>
+
+</html>
